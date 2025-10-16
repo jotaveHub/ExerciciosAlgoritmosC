@@ -1,0 +1,27 @@
+{
+  "files.associations": {
+      "string.h": "c",
+      "random": "c",
+      "stdio.h": "c"
+  },
+
+  "terminal.integrated.defaultProfile.windows": "PowerShell",
+  "terminal.integrated.profiles.windows": {
+      "PowerShell": {
+          "source": "PowerShell",
+          "args": ["-NoExit", "-Command", "chcp 65001"]
+      }
+  },
+
+  "C_Cpp.errorSquiggles": "disabled",
+
+  // Terminal sempre à direita
+  "workbench.panel.defaultLocation": "right",
+
+  // Terminal integrado pode abrir no editor (em cima)
+  "terminal.integrated.splitCwd": "inherited",
+  "terminal.integrated.defaultLocation": "view",
+  "code-runner.runInTerminal": true
+}
+
+  
